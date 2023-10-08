@@ -10,6 +10,9 @@ export default function Home() {
             it as much as I do!
           </p>
         </h2>
+        <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 md:mb-4">
+          First video of the collection.
+        </h3>
         <iframe
           width="720"
           height="480"
@@ -21,7 +24,7 @@ export default function Home() {
         ></iframe>
       </div>
       <p className="text-lg mb-4 md:mb-8">
-        This is an opensource project. You can find the code <a href="https://github.com/miguelgargallo/lovefrom-miguel" className="underline text-blue-500 hover:text-blue-700">here</a>.
+        This is an opensource project. You can find the code <a href="https://github.com/miguelgargallo/lovefrom-miguel" target="_blank" rel="noreferrer" className="underline text-blue-500 hover:text-blue-700">here</a>.
       </p>
     </main>
   )
