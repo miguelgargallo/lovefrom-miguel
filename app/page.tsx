@@ -4,7 +4,7 @@ export default function Home() {
       <h1 className="text-5xl font-bold col-span-4">Love From Miguel</h1>
       <h2 className="text-3xl font-semibold">A Collection Close to My Heart</h2>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <div className="video-container">
+        <div className="video-container items-center justify-center">
           <iframe
             width="560"
             height="315"
